@@ -4,251 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Rush | Race Your Logic</title>
+    <title>Code Rush: Race Your Logic</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-   
-<header class="topbar">
-    <a class="logo" href="#">
-        <span class="logo-main">🏁 CODE <span>RUSH</span></span>
-        <small>RACE YOUR LOGIC</small>
-    </a>
+    <main class="landing">
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
 
-    <div class="top-info">
-        <span>⚡ DSA CHALLENGE</span>
-        <span>🏆 <b id="headerScore">0</b> Points</span>
-    </div>
-</header>
+        <section class="content">
+            <p class="label">THE ULTIMATE CODING RACE</p>
 
+            <h1>CODE<br><span>RUSH</span></h1>
 
-    <main class="container">
+            <h2>RACE YOUR LOGIC</h2>
 
-        <!-- Welcome screen -->
-        <section class="hero" id="welcomeScreen">
-            <div class="hero-content">
-                <span class="tag">WELCOME TO THE RACE</span>
-                <h1>THINK.<br>CODE.<br><span>RACE!</span></h1>
-                <p>Answer coding questions. Speed up your car.<br>
-                   Cross the finish line and become the champion!</p>
-                <button class="primary-btn" onclick="showScreen('roomScreen')">
-                    START RACE <span>➜</span>
-                </button>
-            </div>
+            <p class="description">
+                Think fast. Code smart. Race to win.
+            </p>
 
-            <div class="hero-art">
-                <div class="sun"></div>
-                <div class="mountain mountain-one"></div>
-                <div class="mountain mountain-two"></div>
-                <div class="hero-road"></div>
-                <div class="hero-car">🏎️</div>
-                <div class="hero-lights">✦　✦　✦</div>
-            </div>
-        </section>
-
-        <!-- Create or join room -->
-        <section class="panel screen" id="roomScreen">
-            <button class="back-btn" onclick="showScreen('welcomeScreen')">← Back</button>
-            <div class="section-heading">
-                <span class="tag">MULTIPLAYER LOBBY</span>
-                <h2>Create or <span>Join Room</span></h2>
-                <p>Bring your friends and challenge their coding skills!</p>
-            </div>
-
-           
-<div class="room-cards">
-    <div class="room-card cyan-card">
-        <div class="big-icon">⊕</div>
-        <h3>Create Room</h3>
-        <p>Start a race and get ready to play!</p>
-        
-<button class="primary-btn"
-    onclick="chooseRoomMode('create')">
-    CREATE ROOM →
-</button>
-
-    </div>
-
-    <div class="room-card purple-card">
-        <div class="big-icon">♟</div>
-        <h3>Join Room</h3>
-        <p>Get ready to enter the race!</p>
-        
-<button class="primary-btn purple-btn"
-    onclick="chooseRoomMode('join')">
-    JOIN ROOM →
-</button>
-
-    </div>
-</div>
-
-            <p class="message" id="roomMessage"></p>
-            <button class="outline-btn" onclick="showScreen('playerScreen')">
-                CONTINUE TO PLAYER DETAILS →
+            <button id="startBtn">
+                START GAME <span>→</span>
             </button>
+
+            <p class="tagline">YOUR LOGIC. YOUR SPEED. YOUR VICTORY.</p>
         </section>
 
-        <!-- Player details -->
-        <section class="panel screen" id="playerScreen">
-            <button class="back-btn" onclick="showScreen('roomScreen')">← Back</button>
-            <div class="section-heading">
-                <div class="big-icon">♙</div>
-                <h2>Player <span>Details</span></h2>
-                <p>Choose your name and your racing car!</p>
-            </div>
+        <section class="visual">
+            <div class="glow glow1"></div>
+            <div class="glow glow2"></div>
 
-            <div class="player-form">
-                <label for="playerName">YOUR PLAYER NAME</label>
-                
-               <label id="roomCodeLabel" for="roomCode">ROOM CODE (JOIN ONLY)</label>
-               <input id="roomCode" placeholder="Enter room code" maxlength="6">
+            <div class="code-icon">&lt;/&gt;</div>
 
-                <input id="playerName" placeholder="Enter your name">
+            <div class="symbol symbol1">✦</div>
+            <div class="symbol symbol2">＋</div>
+            <div class="symbol symbol3">◇</div>
 
-                <label>SELECT YOUR CAR</label>
-                <div class="car-picker">
-                    <button class="car-choice selected" data-car="🏎️" onclick="selectCar(this)">🏎️</button>
-                    <button class="car-choice" data-car="🚗" onclick="selectCar(this)">🚗</button>
-                    <button class="car-choice" data-car="🚙" onclick="selectCar(this)">🚙</button>
-                    <button class="car-choice" data-car="🚕" onclick="selectCar(this)">🚕</button>
-                </div>
-
-                <button class="primary-btn" onclick="startGame()">START GAME 🚀</button>
-                <p class="message" id="playerMessage"></p>
+            <div class="road">
+                <div class="road-line"></div>
+                <div class="car car1">🏎️</div>
+                <div class="car car2">🏎️</div>
+                <div class="finish">FINISH</div>
             </div>
         </section>
-
-        <!-- Main game -->
-         
-<!-- Waiting Lobby -->
-<section class="panel screen" id="lobbyScreen">
-    <div class="section-heading">
-        <span class="tag">MULTIPLAYER LOBBY</span>
-        <h2>Ready, <span>Racer?</span></h2>
-        <p>Share the room code with your friends.</p>
-    </div>
-
-    <h3>Room Code: <span id="lobbyRoomCode">------</span></h3>
-
-    <h3>Players Joined</h3>
-    <div id="lobbyPlayers">
-        Waiting for players...
-    </div>
-
-    <p class="message" id="lobbyMessage">
-        Waiting for the host to start the race...
-    </p>
-
-    <button class="primary-btn" id="startRaceBtn"
-        onclick="socket.emit('startRace')">
-        START RACE 🚀
-    </button>
-</section>
-
-        <section class="screen" id="gameScreen">
-            <div class="game-top">
-                <div>
-                    <span class="tag">LIVE RACE</span>
-                    <h2>Code <span>Rush</span></h2>
-                </div>
-                <div class="stats">
-                    <div class="stat-box">⭐ SCORE <b id="score">0</b></div>
-                    <div class="stat-box">LEVEL <b>01</b></div>
-                </div>
-            </div>
-
-            <div class="game-layout">
-                <!-- Questions on left -->
-                <section class="question-card">
-                    <div class="question-top">
-                        <span class="category">▣ ARRAYS & DSA</span>
-                        <span id="questionCount">QUESTION 1 / 5</span>
-                    </div>
-
-                    <div class="progress-track">
-                        <div class="progress-fill" id="progressFill"></div>
-                    </div>
-
-                    <h2 id="questionText">Which index does an array usually start from in C?</h2>
-                    <div class="options" id="options"></div>
-
-                    <p class="feedback" id="feedback">Choose the correct answer to boost your car!</p>
-                    <button class="primary-btn next-btn" id="nextBtn" onclick="nextQuestion()" disabled>
-                        NEXT QUESTION →
-                    </button>
-                </section>
-
-                <!-- Race track on right -->
-                <section class="race-card">
-                    <div class="race-heading">
-                        <div>
-                            <span class="tag">SPEED TRACK</span>
-                            <h2>Race <span>Progress</span></h2>
-                        </div>
-                        <span class="live-badge">● LIVE</span>
-                    </div>
-
-                    <div class="race-scene">
-                        <div class="city">▴　▴　▴　▴　▴　▴　▴</div>
-                        <div class="finish-line">🏁<small>FINISH</small></div>
-
-                        <div class="race-lane">
-                            <span class="opponent-car car-red">🚗</span>
-                        </div>
-                        <div class="race-lane">
-                            <span class="player-label">YOU</span>
-                            <span class="player-car" id="playerCar">🏎️</span>
-                        </div>
-                        <div class="race-lane">
-                            <span class="opponent-car car-yellow">🚕</span>
-                        </div>
-                    </div>
-
-                    <div class="race-footer">
-                        <span>YOUR DISTANCE</span>
-                        <b id="distanceText">0%</b>
-                    </div>
-                    <div class="progress-track">
-                        <div class="progress-fill" id="carProgress"></div>
-                    </div>
-                </section>
-            </div>
-
-            <section class="mini-leaderboard">
-                <h3>🏆 Race Standings</h3>
-                <div class="leader-row">
-                    <span>🥇</span><b id="leaderName">You</b>
-                    <span class="leader-score" id="leaderScore">0 points</span>
-                </div>
-            </section>
-        </section>
-
-        <!-- Final results -->
-        <section class="panel screen" id="resultScreen">
-            <div class="trophy">🏆</div>
-            <span class="tag">RACE FINISHED</span>
-            <h1>Race <span>Completed!</span></h1>
-            <p>Well done, champion! Keep learning, keep racing.</p>
-
-            <div class="final-score">
-                <p>YOUR FINAL SCORE</p>
-                <h2>⭐ <span id="finalScore">0</span></h2>
-                <p id="finalName">Player</p>
-            </div>
-
-            <button class="primary-btn" onclick="restartGame()">PLAY AGAIN ↻</button>
-            <button class="outline-btn" onclick="showScreen('welcomeScreen')">HOME</button>
-        </section>
-
     </main>
 
-    <footer>
-        <p>🏁 CODE RUSH — RACE YOUR LOGIC</p>
-        <span>Think Fast. Code Smart. Race Ahead.</span>
-    </footer>
-<script src="/socket.io/socket.io.js"></script>
-    <script src="js/script.js"></script>
-    
+    <script src="script.js"></script>
 </body>
 </html>
