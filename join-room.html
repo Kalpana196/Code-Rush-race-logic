@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Room | Code Rush</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="join-room-page">
+
+    <header class="room-header">
+        <a href="game.html" class="back-btn">← Back</a>
+        <div class="room-logo">CODE <span>RUSH</span></div>
+        <div class="online-status">● MULTIPLAYER</div>
+    </header>
+
+    <main class="join-container">
+        <div class="join-icon-large">⇄</div>
+
+        <p class="eyebrow">YOUR TEAM IS WAITING</p>
+        <h1>Join the <span>Race</span></h1>
+        <p class="join-description">
+            Enter your friend's room code and get ready to compete.
+        </p>
+
+        <section class="join-card">
+            <label for="roomCodeInput">ROOM CODE</label>
+
+            <input
+                type="text"
+                id="roomCodeInput"
+                placeholder="e.g. CR-7X2P"
+                maxlength="12"
+                autocomplete="off"
+            >
+
+            <p id="joinMessage" class="join-message">
+                Ask your friend for the room code.
+            </p>
+
+            <button type="button" id="joinRoomBtn" class="join-submit-btn">
+                JOIN ROOM <span>→</span>
+            </button>
+        </section>
+
+        <div class="join-tip">
+            <span>⚡</span>
+            <p>Challenge your friends. Race your logic. Win the game.</p>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

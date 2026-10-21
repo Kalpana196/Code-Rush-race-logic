@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Room | Code Rush</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="create-room-page">
+
+        <header class="room-header">
+            <h2>CODE <span>RUSH</span></h2>
+            <a href="game.html" class="back-btn">← Back</a>
+        </header>
+
+        <main>
+            <section class="room-title">
+                <p class="eyebrow">MULTIPLAYER RACING</p>
+                <h1>Create Your Room</h1>
+                <p>Invite your friends and race your logic!</p>
+            </section>
+
+            <section class="room-code-card">
+                <p class="section-label">YOUR ROOM CODE</p>
+                <h2 id="roomCode">CR-7X2P</h2>
+                <button class="copy-btn" id="copyRoomBtn">
+                    Copy Room Code
+                </button>
+                <p class="small-text">Share this code with your friends.</p>
+            </section>
+
+            <section class="lobby-section">
+                <div class="lobby-heading">
+                    <h2>Players Lobby</h2>
+                    <span>1 / 4 Players</span>
+                </div>
+
+                <div class="player-grid">
+                    <div class="player-card">
+                        <div class="player-icon">🏎️</div>
+                        <div>
+                            <h3>Player 1 (You)</h3>
+                            <p class="host-status">● Room Host</p>
+                        </div>
+                    </div>
+
+                    <div class="player-card waiting">
+                        <div class="player-icon">🏁</div>
+                        <div>
+                            <h3>Player 2</h3>
+                            <p>Waiting to join...</p>
+                        </div>
+                    </div>
+
+                    <div class="player-card waiting">
+                        <div class="player-icon">🏁</div>
+                        <div>
+                            <h3>Player 3</h3>
+                            <p>Waiting to join...</p>
+                        </div>
+                    </div>
+
+                    <div class="player-card waiting">
+                        <div class="player-icon">🏁</div>
+                        <div>
+                            <h3>Player 4</h3>
+                            <p>Waiting to join...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="lobby-message">
+                Waiting for other players to join...
+            </div>
+
+            <button class="start-game-btn" disabled>
+                Waiting for Players...
+            </button>
+
+            <p class="room-note">
+                Minimum 2 players · Maximum 4 players
+            </p>
+        </main>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
