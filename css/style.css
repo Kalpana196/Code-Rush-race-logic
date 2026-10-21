@@ -612,113 +612,200 @@ box-shadow: 10px 5px 10px rgb(158, 203, 237);
 }
 
 
-.create-room-page {
-    min-height: 100vh;
-    padding: 30px 6%;
-    background: #080d1b;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-}
-
-.create-room-page * {
+* {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, black, rgb(105, 103, 103), rgb(11, 11, 11));
+}
+
+.create-room-page {
+    min-height: 100vh;
+    padding: 25px 5%;
+    background:
+        radial-gradient(ellipse at 15% 30%, #525355 0%, transparent 45%),
+        radial-gradient(ellipse at 90% 70%, #7f7070 0%, transparent 40%),
+        #293a68;
+    color: #ffffff;
+}
+
+/* Header */
 
 .room-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
-.room-header h2 {
-    color: #ffffff;
-    font-size: 25px;
+.room-logo h2 {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 800;
+    background: linear-gradient(
+        to right,
+        #10e1f8,
+        rgb(239, 134, 151),
+        #a30b78
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.5px #f6fafb;
+    text-shadow: 0 0 15px #42d9ff30;
 }
 
-.room-header h2 span {
-    color: #42d9ff;
+.room-logo h2 span {
+    font-size: 50px;
+        font-weight: 800;
+
 }
 
-.create-room-page .back-btn {
-    color: #ffffff;
+.room-logo p {
+    margin: 5px 0 0;
+    color: #6ea3f8;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+.back-btn {
+    color: #fb4c4c;
     text-decoration: none;
-    border: 1px solid #34445f;
-    padding: 10px 16px;
+    border: 1px solid #9aabc9;
+    padding: 11px 18px;
     border-radius: 8px;
+    transition: 0.3s;
 }
 
-.create-room-page .back-btn:hover {
-    background: #1a2942;
+.back-btn:hover {
+    background: cyan;
+    color: black;
+    box-shadow: 10px 0 15px #42d9ff70;
 }
+
+/* Page heading */
 
 .room-title {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 25px 0 35px;
 }
 
 .room-title .eyebrow {
     color: #42d9ff;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     font-size: 12px;
-    margin-bottom: 12px;
+    font-weight: bold;
 }
 
 .room-title h1 {
-    font-size: 36px;
-    margin-bottom: 12px;
+    font-size: clamp(32px, 4vw, 48px);
+    margin: 12px 0;
+    text-shadow: 0 0 20px #304dff80;
 }
 
 .room-title > p:last-child {
-    color: #a7b5cc;
+    color: #cddffd;
+    font-size: 14px;
 }
 
+/* Horizontal layout */
+
+.room-layout {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 25px;
+    max-width: 1150px;
+    margin: auto;
+    align-items: stretch;
+}
+
+/* Room code */
+
 .room-code-card {
-    max-width: 550px;
-    margin: 0 auto 35px;
-    padding: 28px;
-    text-align: center;
-    background: #111b30;
+    padding: 30px;
+    min-width: 0;
+    background: linear-gradient(145deg, #111b30, #0c1629);
     border: 1px solid #245b88;
     border-radius: 16px;
     box-shadow: 0 0 25px #168bff15;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.room-code-card:hover {
+    border-color: #42d9ff;
+    box-shadow: 0 0 22px #168bff25;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+.live-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    flex-shrink: 0;
+    background: #43e5a0;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #43e5a0;
 }
 
 .section-label {
     color: #a7b5cc;
     letter-spacing: 3px;
-    font-size: 12px;
+    font-size: 11px;
+    margin: 0;
 }
 
 .room-code-card h2 {
     color: #42d9ff;
-    font-size: 36px;
+    font-size: clamp(28px, 3vw, 38px);
     letter-spacing: 6px;
-    margin: 18px 0;
-}
-
-.create-room-page .copy-btn {
-    background: #153b5c;
-    color: white;
-    border: 1px solid #42d9ff;
-    padding: 11px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.create-room-page .copy-btn:hover {
-    background: #205982;
+    margin: 25px 0 15px;
+    text-shadow: 0 0 18px #42d9ff50;
 }
 
 .small-text {
     color: #8191aa;
     font-size: 12px;
-    margin-top: 15px;
 }
 
+.room-info {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.room-info span {
+    background: #15243b;
+    border: 1px solid #263c59;
+    padding: 12px;
+    border-radius: 8px;
+    color: #cddffd;
+    font-size: 12px;
+}
+
+/* Players lobby */
+
 .lobby-section {
-    max-width: 750px;
-    margin: auto;
+    min-width: 0;
+    padding: 25px;
+    background: #0d172a;
+    border: 1px solid #263c59;
+    border-radius: 16px;
 }
 
 .lobby-heading {
@@ -726,54 +813,80 @@ box-shadow: 10px 5px 10px rgb(158, 203, 237);
     justify-content: space-between;
     align-items: center;
     gap: 12px;
-    margin-bottom: 18px;
+    margin-bottom: 22px;
 }
 
 .lobby-heading h2 {
-    font-size: 22px;
+    font-size: 23px;
+    margin: 8px 0 0;
 }
 
-.lobby-heading span {
+.player-count {
     color: #42d9ff;
-    font-size: 14px;
+    background: #102b43;
+    border: 1px solid #245b88;
+    padding: 9px 12px;
+    border-radius: 8px;
+    font-size: 11px;
+    white-space: nowrap;
 }
+
+/* Player cards */
 
 .player-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 15px;
+    gap: 14px;
 }
 
 .player-card {
+    position: relative;
     display: flex;
     align-items: center;
-    gap: 14px;
-    padding: 18px;
+    gap: 12px;
+    min-width: 0;
+    padding: 15px 12px;
     background: #131f35;
     border: 1px solid #2b405f;
     border-radius: 12px;
+    transition: transform 0.25s, border-color 0.25s;
+}
+
+.player-card:hover {
+    transform: translateY(-3px);
+    border-color: #42d9ff;
+}
+
+.active-player {
+    border-color: #287e9e;
+    background: linear-gradient(120deg, #142b43, #131f35);
 }
 
 .player-icon {
-    width: 45px;
-    height: 45px;
+    width: 42px;
+    height: 42px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #203e5d;
     border-radius: 10px;
-    font-size: 23px;
+    font-size: 22px;
+}
+
+.player-info {
+    min-width: 0;
 }
 
 .player-card h3 {
-    font-size: 15px;
-    margin-bottom: 7px;
+    font-size: 13px;
+    margin: 0 0 7px;
 }
 
 .player-card p {
     color: #8d9bb2;
-    font-size: 12px;
+    font-size: 11px;
+    margin: 0;
 }
 
 .player-card .host-status {
@@ -784,34 +897,56 @@ box-shadow: 10px 5px 10px rgb(158, 203, 237);
     background: #202b40;
 }
 
-.lobby-message {
-    text-align: center;
-    color: #a7b5cc;
-    font-size: 14px;
-    margin: 28px 0 18px;
+.you-badge {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    color: #42d9ff;
+    font-size: 9px;
+    font-weight: bold;
 }
 
-.create-room-page .start-game-btn {
-    display: block;
+/* Bottom section */
+
+.race-footer {
+    max-width: 1150px;
+    margin: 28px auto 0;
+    text-align: center;
+}
+
+.lobby-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #a7b5cc;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.start-game-btn {
     width: 100%;
-    max-width: 750px;
-    margin: auto;
+    max-width: 420px;
     padding: 15px;
     background: #26354c;
     color: #a7b5cc;
     border: 1px solid #3c4c65;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
+    letter-spacing: 1px;
     cursor: not-allowed;
 }
 
 .room-note {
-    text-align: center;
     color: #71819b;
-    font-size: 12px;
-    margin-top: 18px;
+    font-size: 11px;
+    margin-top: 15px;
 }
+
+
+
+
 
 /* Join Room Page */
 .join-room-page {
@@ -820,7 +955,7 @@ box-shadow: 10px 5px 10px rgb(158, 203, 237);
     color: #f4f5ff;
     background:
         radial-gradient(ellipse at 50% 20%, #292052 0%, transparent 48%),
-        #090b18;
+        #333757;
     font-family: Arial, sans-serif;
 }
 
@@ -964,5 +1099,43 @@ box-shadow: 10px 5px 10px rgb(158, 203, 237);
     line-height: 1.5;
 }
 
+.room-header1{
+    height: 50px;
+    width: 300px;
+    margin-top: -480px;
+}
+.room-header1 .back-btn1 {
+    height: 40px;
+    width: 80px;
+    border: 2px solid rgb(213, 213, 252);
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+}
 
+.room-header1 .back-btn1 a {
+    color: rgb(245, 244, 244);
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
 
+.room-logo span{
+    font-size: 90px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+     background: linear-gradient(90deg, #00e5ff, #a855f7, #ff4ecd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    filter: drop-shadow(10 10 8px #00e5ff80);
+    padding-top: 100px;
+}
+.room-logo h3{
+    color: #00cfff;
+    padding-top: 20px;
+    font-size: 20px;
+}
