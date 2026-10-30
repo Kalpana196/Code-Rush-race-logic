@@ -1,0 +1,2774 @@
+{
+    "level1_array": [
+        {
+            "question": "Which index is used to access the first element of a JavaScript array?",
+            "options": [
+                "0",
+                "1",
+                "-1",
+                "2"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which property gives the number of elements in an array?",
+            "options": [
+                "size",
+                "count",
+                "length",
+                "total"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which method adds an element to the end of an array?",
+            "options": [
+                "push()",
+                "pop()",
+                "shift()",
+                "unshift()"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which method removes the last element of an array?",
+            "options": [
+                "shift()",
+                "pop()",
+                "slice()",
+                "join()"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the index of the third element in an array?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which method adds an element at the beginning of an array?",
+            "options": [
+                "push()",
+                "pop()",
+                "unshift()",
+                "concat()"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which method removes the first element of an array?",
+            "options": [
+                "pop()",
+                "shift()",
+                "unshift()",
+                "map()"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the result of [4, 7, 9][1]?",
+            "options": [
+                "4",
+                "7",
+                "9",
+                "1"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which loop is commonly used to visit every array element?",
+            "options": [
+                "for",
+                "switch",
+                "try",
+                "break"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the index of the last element in an array of length 6?",
+            "options": [
+                "6",
+                "5",
+                "4",
+                "7"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which method combines two arrays into a new array?",
+            "options": [
+                "concat()",
+                "pop()",
+                "reverse()",
+                "sort()"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What does an array store?",
+            "options": [
+                "Only one value",
+                "A collection of values",
+                "Only characters",
+                "Only functions"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the output of [2, 5].length?",
+            "options": [
+                "1",
+                "2",
+                "5",
+                "7"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which method reverses the order of array elements?",
+            "options": [
+                "sort()",
+                "reverse()",
+                "slice()",
+                "filter()"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "In a zero-based array, what is the index of the fifth element?",
+            "options": [
+                "5",
+                "4",
+                "3",
+                "6"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What does arr.push(10) do?",
+            "options": [
+                "Removes 10",
+                "Adds 10 at the end",
+                "Adds 10 at the start",
+                "Sorts the array"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which method creates a new array containing selected elements?",
+            "options": [
+                "filter()",
+                "pop()",
+                "shift()",
+                "push()"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the result of [3, 6, 8][0]?",
+            "options": [
+                "3",
+                "6",
+                "8",
+                "0"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which of these is a valid JavaScript array?",
+            "options": [
+                "(1, 2, 3)",
+                "{1, 2, 3}",
+                "[1, 2, 3]",
+                "<1, 2, 3>"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "If an array has 4 elements, how many valid indexes does it have?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "2"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the output of [1, 2, 3].length?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "1"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which method returns a portion of an array without changing the original?",
+            "options": [
+                "slice()",
+                "splice()",
+                "pop()",
+                "push()"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which method can remove or add elements at a chosen index?",
+            "options": [
+                "map()",
+                "splice()",
+                "join()",
+                "includes()"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What does [5, 10, 15].includes(10) return?",
+            "options": [
+                "10",
+                "true",
+                "false",
+                "undefined"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which method creates a new array by transforming each element?",
+            "options": [
+                "map()",
+                "pop()",
+                "shift()",
+                "push()"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the output of [2, 4, 6].indexOf(4)?",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "-1"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What does indexOf() return when a value is not found?",
+            "options": [
+                "0",
+                "null",
+                "-1",
+                "false"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which method joins array elements into a string?",
+            "options": [
+                "join()",
+                "concat()",
+                "filter()",
+                "reverse()"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the output of [3, 1, 2].sort() for these single-digit values?",
+            "options": [
+                "[1, 2, 3]",
+                "[3, 2, 1]",
+                "[2, 1, 3]",
+                "[3, 1, 2]"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which method checks whether at least one element passes a condition?",
+            "options": [
+                "every()",
+                "some()",
+                "map()",
+                "join()"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which method checks whether all elements pass a condition?",
+            "options": [
+                "some()",
+                "filter()",
+                "every()",
+                "find()"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "What does filter() return?",
+            "options": [
+                "A single number always",
+                "A new array of matching elements",
+                "The original length",
+                "A boolean only"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the output of [9, 8, 7].at(-1)?",
+            "options": [
+                "9",
+                "8",
+                "7",
+                "undefined"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which method finds the first element that satisfies a condition?",
+            "options": [
+                "find()",
+                "sort()",
+                "pop()",
+                "concat()"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the result of [1, 2].concat([3])?",
+            "options": [
+                "[1, 2, 3]",
+                "[1, 2, [3]]",
+                "[3, 1, 2]",
+                "[1, 2]"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which statement changes the original array by reversing it?",
+            "options": [
+                "arr.slice()",
+                "arr.reverse()",
+                "arr.map()",
+                "arr.filter()"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the last valid index of an array with 10 elements?",
+            "options": [
+                "10",
+                "9",
+                "8",
+                "11"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the output of let a=[2,3]; a[0]=8; console.log(a[0]);",
+            "options": [
+                "2",
+                "3",
+                "8",
+                "undefined"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which method removes the first element and returns it?",
+            "options": [
+                "pop()",
+                "shift()",
+                "unshift()",
+                "slice()"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which method adds one or more elements at the end?",
+            "options": [
+                "push()",
+                "unshift()",
+                "shift()",
+                "splice()"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the output of [4, 5, 6].includes(7)?",
+            "options": [
+                "true",
+                "false",
+                "7",
+                "-1"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which array method executes a function for each element?",
+            "options": [
+                "forEach()",
+                "pop()",
+                "join()",
+                "indexOf()"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What does a[2] access in an array?",
+            "options": [
+                "Second element",
+                "Third element",
+                "Fourth element",
+                "Last element always"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "If arr has 3 elements, what is arr[3] in JavaScript?",
+            "options": [
+                "First element",
+                "Last element",
+                "undefined",
+                "0"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which method returns a shallow copy of part of an array?",
+            "options": [
+                "slice()",
+                "pop()",
+                "shift()",
+                "push()"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the output of [1, 2, 3].map(x => x * 2)?",
+            "options": [
+                "[1, 2, 3]",
+                "[2, 4, 6]",
+                "[2, 3, 4]",
+                "[1, 4, 9]"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which method reduces an array to a single accumulated value?",
+            "options": [
+                "reduce()",
+                "filter()",
+                "slice()",
+                "unshift()"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the output of [6, 2, 4][2]?",
+            "options": [
+                "6",
+                "2",
+                "4",
+                "2"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which data structure stores elements using numbered indexes?",
+            "options": [
+                "Array",
+                "Stack only",
+                "Queue only",
+                "Tree"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the time complexity of accessing an array element by index?",
+            "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)",
+                "O(n²)"
+            ],
+            "answerIndex": 0
+        }
+    ],
+    "level2_stack": [
+        {
+            "question": "Which principle does a stack follow?",
+            "options": [
+                "FIFO",
+                "LIFO",
+                "Random",
+                "Priority"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which operation inserts an item into a stack?",
+            "options": [
+                "Pop",
+                "Push",
+                "Peek",
+                "Dequeue"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which operation removes the top item from a stack?",
+            "options": [
+                "Push",
+                "Insert",
+                "Pop",
+                "Enqueue"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which operation views the top item without removing it?",
+            "options": [
+                "Peek",
+                "Pop",
+                "Push",
+                "Delete"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which end is used for insertion and deletion in a stack?",
+            "options": [
+                "Bottom only",
+                "Top",
+                "Both ends",
+                "Middle"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is stack underflow?",
+            "options": [
+                "Pushing into a full stack",
+                "Popping from an empty stack",
+                "Sorting a stack",
+                "Creating a stack"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is stack overflow in a fixed-size stack?",
+            "options": [
+                "Removing an item",
+                "Adding when the stack is full",
+                "Viewing the top",
+                "Searching an item"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which real-life example best represents a stack?",
+            "options": [
+                "People in a queue",
+                "Stack of plates",
+                "Cars in traffic",
+                "A playlist"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "After pushing A, then B, then C, which item is on top?",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "None"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "After pushing 5 and 8, then popping once, what remains on top?",
+            "options": [
+                "5",
+                "8",
+                "0",
+                "Empty"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which data structure is useful for function call management?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Graph",
+                "Array only"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the time complexity of push in a typical stack?",
+            "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)",
+                "O(n²)"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the time complexity of pop in a typical stack?",
+            "options": [
+                "O(n)",
+                "O(1)",
+                "O(n²)",
+                "O(log n)"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which expression type is commonly evaluated using a stack?",
+            "options": [
+                "Infix only",
+                "Postfix",
+                "HTML",
+                "CSV"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which condition indicates an empty stack when top starts at -1?",
+            "options": [
+                "top == 0",
+                "top == -1",
+                "top == 1",
+                "top == MAX"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which operation changes the top pointer to remove an item?",
+            "options": [
+                "Push",
+                "Pop",
+                "Peek",
+                "Display"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What happens when the last item is popped from a stack?",
+            "options": [
+                "It becomes full",
+                "It becomes empty",
+                "It becomes a queue",
+                "It is sorted"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which traversal technique uses a stack internally?",
+            "options": [
+                "Depth First Search",
+                "Breadth First Search only",
+                "Linear search",
+                "Bubble sort"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which order describes stack removal?",
+            "options": [
+                "First in, first out",
+                "Last in, first out",
+                "Smallest first",
+                "Largest first"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "A stack currently has [2, 4, 6] with 6 at the top. What does pop return?",
+            "options": [
+                "2",
+                "4",
+                "6",
+                "Empty"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "A stack has [1, 2, 3] with 3 on top. After one pop, what is on top?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "Empty"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which pointer usually identifies the top of an array-based stack?",
+            "options": [
+                "front",
+                "rear",
+                "top",
+                "head"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "If top = -1, what does it commonly indicate?",
+            "options": [
+                "Stack is full",
+                "Stack is empty",
+                "One item exists",
+                "Stack is sorted"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "For a stack of capacity 5, what is the top index when all 5 slots are filled?",
+            "options": [
+                "4",
+                "5",
+                "-1",
+                "3"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which operation adds an item to the top?",
+            "options": [
+                "Enqueue",
+                "Push",
+                "Dequeue",
+                "Traverse"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which operation removes the most recently added item?",
+            "options": [
+                "Dequeue",
+                "Pop",
+                "Enqueue",
+                "Insert rear"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is returned by peek on an empty stack in a safe implementation?",
+            "options": [
+                "A valid top item",
+                "An empty/error indication",
+                "The bottom item",
+                "The stack capacity"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which problem can be solved using a stack?",
+            "options": [
+                "Matching parentheses",
+                "Serving a line in arrival order",
+                "Finding minimum temperature only",
+                "Storing a table row only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "In a stack, the bottom item is removed:",
+            "options": [
+                "Before the top",
+                "After all items above it are removed",
+                "At every push",
+                "At random"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Push 10, push 20, push 30, pop, peek. What does peek return?",
+            "options": [
+                "10",
+                "20",
+                "30",
+                "Empty"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which notation places the operator after its operands?",
+            "options": [
+                "Prefix",
+                "Postfix",
+                "Infix",
+                "None"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which notation places the operator before its operands?",
+            "options": [
+                "Prefix",
+                "Postfix",
+                "Infix",
+                "Suffix only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "A stack is commonly used to check:",
+            "options": [
+                "Balanced brackets",
+                "Queue arrival time",
+                "Array capacity only",
+                "Network speed"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the time complexity of peek in a typical stack?",
+            "options": [
+                "O(n)",
+                "O(1)",
+                "O(log n)",
+                "O(n²)"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure is the opposite of a FIFO queue in removal order?",
+            "options": [
+                "Stack",
+                "Array",
+                "Graph",
+                "Tree"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "If a stack is implemented using a linked list, where is insertion commonly done?",
+            "options": [
+                "At the head",
+                "At every node",
+                "Only in the middle",
+                "At a random node"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What does a pop operation normally return?",
+            "options": [
+                "The removed top element",
+                "The bottom element",
+                "The stack size only",
+                "The next inserted element"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which condition indicates overflow in a fixed array stack of size MAX?",
+            "options": [
+                "top == -1",
+                "top == MAX - 1 before push",
+                "top == 0",
+                "top < MAX"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "After popping the only element, what should top become?",
+            "options": [
+                "0",
+                "1",
+                "-1",
+                "MAX"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which traversal uses a stack for backtracking?",
+            "options": [
+                "Depth-first traversal",
+                "Level-order traversal",
+                "Linear queue traversal",
+                "None"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which data structure is used to reverse a string using repeated push and pop?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Priority queue",
+                "Graph"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "If A is pushed then B, which is popped first?",
+            "options": [
+                "A",
+                "B",
+                "Both together",
+                "Neither"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the main rule of stack access?",
+            "options": [
+                "Only the top is directly accessed",
+                "Only the bottom is accessed",
+                "Any middle item is removed first",
+                "Items leave by arrival order"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which operation does not remove an element?",
+            "options": [
+                "Pop",
+                "Peek",
+                "Delete top",
+                "Remove"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "A stack contains 4, 7, 9 (9 top). Two pops are performed. What remains?",
+            "options": [
+                "4",
+                "7",
+                "9",
+                "Empty"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which is a common application of a stack in a text editor?",
+            "options": [
+                "Undo action history",
+                "Print queue order",
+                "CPU ready queue only",
+                "Sorting records by name"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the output order when pushing 1, 2, 3 and popping all?",
+            "options": [
+                "1, 2, 3",
+                "3, 2, 1",
+                "2, 1, 3",
+                "1, 3, 2"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Can a stack be implemented using an array?",
+            "options": [
+                "Yes",
+                "No",
+                "Only with a tree",
+                "Only with a graph"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Can a stack be implemented using a linked list?",
+            "options": [
+                "Yes",
+                "No",
+                "Only with a queue",
+                "Only with sorting"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which term describes adding an item to a stack?",
+            "options": [
+                "Enqueue",
+                "Push",
+                "Dequeue",
+                "Poll"
+            ],
+            "answerIndex": 1
+        }
+    ],
+    "level3_queue": [
+        {
+            "question": "Which principle does a queue follow?",
+            "options": [
+                "LIFO",
+                "FIFO",
+                "Random",
+                "Last priority"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which operation inserts an element into a queue?",
+            "options": [
+                "Dequeue",
+                "Enqueue",
+                "Pop",
+                "Peek"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which operation removes an element from a queue?",
+            "options": [
+                "Push",
+                "Enqueue",
+                "Dequeue",
+                "Append"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which end is used to insert an item in a standard queue?",
+            "options": [
+                "Front",
+                "Rear",
+                "Middle",
+                "Both"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which end is used to remove an item from a standard queue?",
+            "options": [
+                "Rear",
+                "Top",
+                "Front",
+                "Middle"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "What does FIFO stand for?",
+            "options": [
+                "First In First Out",
+                "First In Final Out",
+                "Fast In Fast Out",
+                "Final In First Out"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which real-life example represents a queue?",
+            "options": [
+                "Stack of books",
+                "People waiting at a ticket counter",
+                "Browser back history",
+                "Nested function calls"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "In an empty array-based queue, a common initial front value is:",
+            "options": [
+                "0",
+                "-1",
+                "1",
+                "MAX"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is queue underflow?",
+            "options": [
+                "Removing from an empty queue",
+                "Adding to an empty queue",
+                "Sorting a queue",
+                "Viewing the front"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "In a simple linear queue, which pointer usually moves during deletion?",
+            "options": [
+                "Rear",
+                "Front",
+                "Top",
+                "Head and tail always together"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the main advantage of a circular queue over a simple linear queue?",
+            "options": [
+                "It sorts elements",
+                "It reuses freed spaces",
+                "It follows LIFO",
+                "It needs no pointers"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which data structure is commonly used for CPU scheduling?",
+            "options": [
+                "Queue",
+                "Stack only",
+                "Tree only",
+                "Hash only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What does peek/front operation do in a queue?",
+            "options": [
+                "Removes the rear",
+                "Shows the front element",
+                "Adds an element",
+                "Reverses the queue"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the time complexity of enqueue in a queue with a rear pointer?",
+            "options": [
+                "O(n)",
+                "O(1)",
+                "O(n²)",
+                "O(log n)"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the time complexity of dequeue in a queue with a front pointer?",
+            "options": [
+                "O(1)",
+                "O(n)",
+                "O(n²)",
+                "O(log n)"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "If A, B, C are enqueued in that order, which is dequeued first?",
+            "options": [
+                "C",
+                "B",
+                "A",
+                "None"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which queue allows insertion and deletion at both ends?",
+            "options": [
+                "Simple queue",
+                "Deque",
+                "Stack",
+                "Priority stack"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "In a circular queue of size 5, what is (rear + 1) % 5 when rear is 4?",
+            "options": [
+                "4",
+                "5",
+                "0",
+                "1"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which structure is often used to manage print jobs?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Tree",
+                "Graph"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is a priority queue based on?",
+            "options": [
+                "Only arrival time",
+                "Priority assigned to elements",
+                "LIFO order",
+                "Alphabetical order always"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "In a queue, which item is removed first?",
+            "options": [
+                "Newest item",
+                "Oldest item",
+                "Largest item",
+                "Smallest item"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which two pointers are commonly used in an array-based queue?",
+            "options": [
+                "top and head",
+                "front and rear",
+                "left and right",
+                "start and middle"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What does enqueue do?",
+            "options": [
+                "Removes front item",
+                "Adds item at rear",
+                "Removes rear item",
+                "Reverses queue"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What does dequeue do?",
+            "options": [
+                "Adds at rear",
+                "Removes from front",
+                "Adds at front",
+                "Sorts items"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "A queue receives 3, 6, 9. What is at the front?",
+            "options": [
+                "3",
+                "6",
+                "9",
+                "Empty"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "After enqueue A, B and dequeue once, what remains at the front?",
+            "options": [
+                "A",
+                "B",
+                "Empty",
+                "None"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure is used for breadth-first search?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Heap only",
+                "Hash table only"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which queue serves elements according to assigned importance?",
+            "options": [
+                "Circular queue",
+                "Priority queue",
+                "Simple queue",
+                "Input-restricted deque"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which queue connects its last position back to its first position?",
+            "options": [
+                "Linear queue",
+                "Circular queue",
+                "Priority stack",
+                "Simple list"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "In a linked queue, which pointer usually refers to the first node?",
+            "options": [
+                "rear",
+                "front",
+                "top",
+                "current only"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "In a linked queue, which pointer usually refers to the last node?",
+            "options": [
+                "front",
+                "rear",
+                "head only",
+                "top"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What should happen to both front and rear when the only node is removed?",
+            "options": [
+                "Both become NULL/-1",
+                "Only rear increases",
+                "Only front decreases",
+                "Neither changes"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the time complexity of reading the front item when a front pointer is maintained?",
+            "options": [
+                "O(n)",
+                "O(1)",
+                "O(n²)",
+                "O(log n)"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure is suitable for requests waiting to be processed in arrival order?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Tree",
+                "Graph"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "A queue has front at index 2 and rear at index 4. Which index is removed next?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "1"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is a common problem in a simple linear array queue after several deletions?",
+            "options": [
+                "Unused earlier spaces may be wasted",
+                "It becomes LIFO",
+                "It sorts itself",
+                "It loses FIFO order"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which queue type can insert and delete at both ends?",
+            "options": [
+                "Deque",
+                "Simple queue",
+                "Stack",
+                "Priority stack"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What does FIFO mean for a queue?",
+            "options": [
+                "Newest item leaves first",
+                "Oldest item leaves first",
+                "Largest item leaves first",
+                "Items leave randomly"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "If rear is 3 in a circular queue of size 8, what is the next rear index?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "8"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which operation checks the front item without removing it?",
+            "options": [
+                "Peek/front",
+                "Pop",
+                "Push",
+                "Enqueue"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "A queue is empty when its implementation's empty condition is met. In a common array queue, that may be:",
+            "options": [
+                "front == -1",
+                "rear == MAX",
+                "top == 0",
+                "front == rear + 5"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is suitable for managing customers waiting at a counter?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Tree",
+                "Graph"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which queue is often used in round-robin scheduling?",
+            "options": [
+                "Circular queue",
+                "Stack",
+                "Priority stack",
+                "Binary tree"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "If A, B, C are enqueued and two dequeues occur, what remains?",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "Empty"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which end of a standard queue is called the rear?",
+            "options": [
+                "Deletion end",
+                "Insertion end",
+                "Both ends always",
+                "Neither"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which end of a standard queue is called the front?",
+            "options": [
+                "Insertion end",
+                "Deletion end",
+                "Middle",
+                "Rear"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Can a queue be implemented using a linked list?",
+            "options": [
+                "Yes",
+                "No",
+                "Only with arrays",
+                "Only with recursion"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Can a queue be implemented using two stacks?",
+            "options": [
+                "Yes",
+                "No",
+                "Only with a graph",
+                "Only with a tree"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is queue overflow in a fixed-size array queue?",
+            "options": [
+                "Removing from empty queue",
+                "Trying to insert when no capacity is available",
+                "Viewing the front",
+                "Dequeuing one item"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which order describes queue processing?",
+            "options": [
+                "LIFO",
+                "FIFO",
+                "Random",
+                "Sorted order always"
+            ],
+            "answerIndex": 1
+        }
+    ],
+    "level4_linked_list": [
+        {
+            "question": "What is a node in a linked list?",
+            "options": [
+                "A value only",
+                "Data and a link/reference",
+                "An array index",
+                "A loop"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What does the head pointer store?",
+            "options": [
+                "Last node's data",
+                "Reference to the first node",
+                "List length only",
+                "Middle node"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "In a singly linked list, the last node points to:",
+            "options": [
+                "Head always",
+                "The previous node",
+                "NULL",
+                "Itself"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which field stores the address/reference of the next node?",
+            "options": [
+                "data",
+                "next",
+                "head",
+                "tail"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which operation adds a node to the beginning?",
+            "options": [
+                "Insert at end",
+                "Insert at beginning",
+                "Traverse",
+                "Search only"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which operation visits nodes one by one?",
+            "options": [
+                "Traversal",
+                "Push",
+                "Peek",
+                "Hashing"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Unlike an array, linked-list nodes are generally:",
+            "options": [
+                "Stored only in consecutive memory",
+                "Connected using links",
+                "Always fixed in number",
+                "Accessed by index in O(1)"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the time complexity of accessing the element at position n in a singly linked list?",
+            "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)",
+                "O(n log n)"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What is the usual time complexity of inserting at the head of a singly linked list?",
+            "options": [
+                "O(1)",
+                "O(n)",
+                "O(n²)",
+                "O(log n)"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which pointer is commonly used to move through a linked list?",
+            "options": [
+                "temp/current",
+                "top only",
+                "front only",
+                "index"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What happens if head is NULL?",
+            "options": [
+                "List is full",
+                "List is empty",
+                "List has one node",
+                "List is circular"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which linked list has links in both forward and backward directions?",
+            "options": [
+                "Singly",
+                "Doubly",
+                "Circular singly only",
+                "Linear array"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "In a circular linked list, the last node points to:",
+            "options": [
+                "NULL",
+                "The first node",
+                "The previous node",
+                "A random node"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which operation removes a node from a linked list?",
+            "options": [
+                "Deletion",
+                "Traversal",
+                "Peek",
+                "Enqueue only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What must be updated when deleting the first node of a non-empty singly linked list?",
+            "options": [
+                "head",
+                "Only tail",
+                "Array size",
+                "Stack top"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which is a limitation of a singly linked list?",
+            "options": [
+                "It cannot grow",
+                "It cannot move directly backward",
+                "It stores no data",
+                "It must be sorted"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What does dynamic memory allocation allow in a linked list?",
+            "options": [
+                "Fixed size only",
+                "Nodes to be created as needed",
+                "Direct indexing",
+                "Automatic sorting"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which language feature is commonly used to create linked-list nodes in C?",
+            "options": [
+                "malloc()",
+                "printf()",
+                "scanf()",
+                "strlen()"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the time complexity of searching an unsorted singly linked list?",
+            "options": [
+                "O(1)",
+                "O(log n)",
+                "O(n)",
+                "O(n²)"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "If a node's next reference is NULL, it is usually:",
+            "options": [
+                "The first node",
+                "The last node",
+                "A middle node",
+                "An invalid node always"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What does each node in a singly linked list usually contain?",
+            "options": [
+                "Data and next link",
+                "Only an index",
+                "Two arrays",
+                "Only a pointer to itself"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What does head point to in a non-empty singly linked list?",
+            "options": [
+                "First node",
+                "Last node",
+                "Middle node",
+                "NULL always"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the link value of the last node in a linear singly linked list?",
+            "options": [
+                "Head",
+                "NULL",
+                "Previous node",
+                "Random node"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which operation visits every node from head to end?",
+            "options": [
+                "Traversal",
+                "Push",
+                "Peek",
+                "Enqueue"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the time complexity of inserting a node at the head?",
+            "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)",
+                "O(n²)"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the time complexity of searching a singly linked list?",
+            "options": [
+                "O(1) always",
+                "O(n)",
+                "O(log n) always",
+                "O(n²) always"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which pointer is commonly used as a temporary traversal pointer?",
+            "options": [
+                "temp",
+                "top",
+                "rear only",
+                "index"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What should be done first when inserting a new node at the beginning?",
+            "options": [
+                "Set new node's next to current head",
+                "Delete the head",
+                "Set next to NULL always",
+                "Move head to the end"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "After setting newNode.next = head, what should happen?",
+            "options": [
+                "head = newNode",
+                "head = NULL",
+                "newNode = head.next",
+                "Delete newNode"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "To insert at the end of a non-empty singly linked list, traversal usually stops when:",
+            "options": [
+                "temp == NULL",
+                "temp.next == NULL",
+                "temp == head.next",
+                "temp.data == 0"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What does a NULL head usually represent?",
+            "options": [
+                "An empty list",
+                "A full list",
+                "A circular list",
+                "A list with two nodes"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which list supports traversal in both directions?",
+            "options": [
+                "Singly linked list",
+                "Doubly linked list",
+                "Linear queue",
+                "Stack"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which extra link is present in a doubly linked list node?",
+            "options": [
+                "prev",
+                "top",
+                "rear",
+                "index"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "In a circular singly linked list, what does the last node link to?",
+            "options": [
+                "NULL",
+                "First node",
+                "Previous node",
+                "Itself in every case"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which operation changes links to remove a node?",
+            "options": [
+                "Deletion",
+                "Traversal",
+                "Peek",
+                "Sorting only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "When deleting the head node, what should head become?",
+            "options": [
+                "head.next",
+                "NULL always",
+                "head.prev",
+                "The last node always"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is a disadvantage of linked lists compared with arrays?",
+            "options": [
+                "No direct index-based access",
+                "Cannot store data",
+                "Cannot grow",
+                "Must be sorted"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which memory allocation approach is commonly used for linked-list nodes in C?",
+            "options": [
+                "Dynamic allocation",
+                "Only compile-time fixed allocation",
+                "No allocation",
+                "File allocation"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the role of the next field?",
+            "options": [
+                "Store link to next node",
+                "Store list length",
+                "Store array index",
+                "Store previous node only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "If temp.next is NULL, temp is usually:",
+            "options": [
+                "The last node",
+                "The first node always",
+                "An empty list",
+                "An invalid pointer always"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the time complexity of accessing the 5th node from head?",
+            "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)",
+                "O(n²)"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which data structure is useful when the number of elements changes frequently?",
+            "options": [
+                "Linked list",
+                "Fixed-size array only",
+                "Constant",
+                "Boolean"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What should be updated when appending to an empty list?",
+            "options": [
+                "head should point to new node",
+                "head must stay NULL",
+                "new node must be deleted",
+                "Only previous node"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which linked list has a next and previous link in each node?",
+            "options": [
+                "Doubly linked list",
+                "Singly linked list",
+                "Simple queue",
+                "Stack"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What is the first step in traversing a linked list?",
+            "options": [
+                "Set temp = head",
+                "Set temp = NULL and stop",
+                "Move to last node directly",
+                "Delete head"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Why are linked-list nodes not required to be contiguous in memory?",
+            "options": [
+                "They are connected by links",
+                "They use array indexes",
+                "They are stored in a stack only",
+                "They are always sorted"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which operation finds whether a value exists in a list?",
+            "options": [
+                "Search",
+                "Push",
+                "Enqueue",
+                "Peek"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "If a list is 2 -> 4 -> 6 -> NULL, how many nodes are present?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "6"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "What happens if a node's next link is set to NULL?",
+            "options": [
+                "It ends a linear list at that node",
+                "It creates a new head",
+                "It reverses the list",
+                "It sorts the list"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which pointer is often used to keep track of the last node for faster insertion at end?",
+            "options": [
+                "tail",
+                "top",
+                "front only",
+                "index"
+            ],
+            "answerIndex": 0
+        }
+    ],
+    "level5_mixed": [
+        {
+            "question": "Which data structure is best suited for undo operations?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Linked list only",
+                "Graph"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which data structure is commonly used in level-order tree traversal?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Array index only",
+                "Hash set"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure is most suitable when elements must be processed in arrival order?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Heap only",
+                "Tree"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which data structure allows efficient insertion at the beginning without shifting elements?",
+            "options": [
+                "Array",
+                "Singly linked list",
+                "Fixed matrix",
+                "String"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure is used by recursive function calls?",
+            "options": [
+                "Call stack",
+                "Queue",
+                "Deque only",
+                "Circular list"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which data structure is commonly used in browser back navigation?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Priority queue",
+                "Array only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is suitable for handling tasks by priority?",
+            "options": [
+                "Simple stack",
+                "Priority queue",
+                "Singly linked list only",
+                "Circular array only"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which data structure is commonly used in Breadth First Search?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Heap",
+                "Linked list only"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which data structure is commonly used in Depth First Search?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Priority queue",
+                "Deque only"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure stores elements in key-value pairs in many programming languages?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Hash map",
+                "Linked list"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "question": "Which operation is generally O(1) for an array when accessing a known valid index?",
+            "options": [
+                "Index access",
+                "Searching unsorted values",
+                "Inserting at front",
+                "Deleting at front"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure can grow node by node without requiring a contiguous block?",
+            "options": [
+                "Linked list",
+                "Fixed array",
+                "Static matrix",
+                "Primitive variable"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which data structure can be used to reverse a sequence using LIFO order?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Priority queue",
+                "Graph"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure is appropriate for a waiting-line system?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Call stack",
+                "Binary search tree only"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure supports insertion and deletion at both front and rear?",
+            "options": [
+                "Deque",
+                "Stack only",
+                "Singly linked list only",
+                "Simple queue only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which data structure is often used to represent a network of connected locations?",
+            "options": [
+                "Array only",
+                "Graph",
+                "Stack",
+                "Queue"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure is useful for implementing a dictionary with fast average lookup?",
+            "options": [
+                "Hash table",
+                "Stack",
+                "Queue",
+                "Simple linked list"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which data structure is suitable for repeatedly retrieving the highest-priority item?",
+            "options": [
+                "Stack",
+                "Priority queue",
+                "普通 queue",
+                "Singly linked list"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure is commonly used to represent hierarchical data?",
+            "options": [
+                "Tree",
+                "Queue",
+                "Stack",
+                "Flat array only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which statement best describes choosing a data structure?",
+            "options": [
+                "Always use arrays",
+                "Choose based on required operations",
+                "Always use stacks",
+                "Use the same structure for every task"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure follows LIFO?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Graph",
+                "Tree"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure follows FIFO?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Heap",
+                "Tree"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure is best for undo history?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Graph",
+                "Array only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is suitable for a printer waiting line?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Tree",
+                "Graph"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure is commonly used for browser back history?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Heap",
+                "Graph"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is commonly used for BFS?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Linked list only",
+                "Hash map"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure is commonly used for iterative DFS?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Priority queue",
+                "Array only"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "question": "Which structure represents parent-child relationships?",
+            "options": [
+                "Tree",
+                "Queue",
+                "Stack",
+                "Deque"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure represents connections between cities or users?",
+            "options": [
+                "Graph",
+                "Stack",
+                "Queue",
+                "Array only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure stores data as nodes connected by links?",
+            "options": [
+                "Linked list",
+                "Stack only",
+                "Queue only",
+                "Primitive variable"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure offers direct access by index?",
+            "options": [
+                "Array",
+                "Singly linked list",
+                "Queue only",
+                "Stack only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is useful for processing items by priority?",
+            "options": [
+                "Priority queue",
+                "Simple stack",
+                "Linear list only",
+                "Circular list only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure can be used to implement a queue?",
+            "options": [
+                "Two stacks",
+                "Two trees only",
+                "A single number",
+                "A string only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure can be used to implement a stack?",
+            "options": [
+                "Array",
+                "Queue only",
+                "Graph only",
+                "Database table only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is suitable for frequent insertion at the beginning?",
+            "options": [
+                "Linked list",
+                "Fixed array",
+                "String literal",
+                "Matrix only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is used in function-call management?",
+            "options": [
+                "Call stack",
+                "Print queue",
+                "Graph",
+                "Priority queue"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is suitable for round-robin task scheduling?",
+            "options": [
+                "Circular queue",
+                "Stack",
+                "Binary tree",
+                "Hash map"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is useful for matching opening and closing brackets?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Graph",
+                "Priority queue"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is often used for fast average key lookup?",
+            "options": [
+                "Hash table",
+                "Stack",
+                "Queue",
+                "Simple linked list"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is commonly used for hierarchical file systems?",
+            "options": [
+                "Tree",
+                "Queue",
+                "Stack",
+                "Deque"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is appropriate when the oldest waiting item must be processed first?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Heap only",
+                "Graph"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure removes the most recently inserted item first?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Tree",
+                "Array"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure can efficiently add and remove at both ends?",
+            "options": [
+                "Deque",
+                "Simple stack",
+                "Binary tree only",
+                "Hash table"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is often used in a browser's forward/back navigation history?",
+            "options": [
+                "Stacks",
+                "Queue only",
+                "Graph only",
+                "Priority queue"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is suitable for representing a sequence with dynamic size and node links?",
+            "options": [
+                "Linked list",
+                "Fixed array",
+                "Scalar variable",
+                "Boolean"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure can be used to schedule tasks based on urgency?",
+            "options": [
+                "Priority queue",
+                "Simple FIFO queue only",
+                "Stack only",
+                "Linked list only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is used when exploring nodes level by level?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Call stack",
+                "Hash table"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which structure is used when exploring a branch deeply before backtracking?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Priority queue",
+                "Deque only"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "What should guide the choice of a data structure?",
+            "options": [
+                "Required operations and performance",
+                "Only its name",
+                "Always choose a stack",
+                "Always choose an array"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "question": "Which statement is correct about data structures?",
+            "options": [
+                "Different structures suit different tasks",
+                "All structures work exactly the same",
+                "Only arrays are useful",
+                "A queue follows LIFO"
+            ],
+            "answerIndex": 0
+        }
+    ],
+    "risk_questions": {
+        "level1_array": [
+            {
+                "question": "What is printed? let a=[2,4,6]; console.log(a[1]);",
+                "options": [
+                    "2",
+                    "4",
+                    "6",
+                    "undefined"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "question": "What is printed? let a=[1,3]; a.push(5); console.log(a.length);",
+                "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "question": "What is printed? let a=[7,8,9]; a.pop(); console.log(a[2]);",
+                "options": [
+                    "7",
+                    "8",
+                    "undefined",
+                    "9"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "question": "What is printed? let a=[10,20,30]; console.log(a[0]+a[2]);",
+                "options": [
+                    "30",
+                    "40",
+                    "50",
+                    "60"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "question": "What is printed? let a=[4,5]; a.unshift(2); console.log(a[0]);",
+                "options": [
+                    "2",
+                    "4",
+                    "5",
+                    "undefined"
+                ],
+                "answerIndex": 0
+            }
+        ],
+        "level2_stack": [
+            {
+                "question": "Stack: push(3), push(6), pop(). What is on top?",
+                "options": [
+                    "3",
+                    "6",
+                    "Empty",
+                    "9"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "question": "Stack: push(2), push(4), push(8), pop(). What does pop return?",
+                "options": [
+                    "2",
+                    "4",
+                    "8",
+                    "Empty"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "question": "Stack starts empty. push(5), pop(), pop(). What happens on the second pop?",
+                "options": [
+                    "Returns 5",
+                    "Underflow",
+                    "Overflow",
+                    "Returns 0"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "question": "Stack top is 2 and values are [10, 20, 30]. After pop, what is the new top index?",
+                "options": [
+                    "2",
+                    "1",
+                    "0",
+                    "-1"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "question": "Stack: push(A), push(B), peek(). What is returned?",
+                "options": [
+                    "A",
+                    "B",
+                    "Empty",
+                    "NULL always"
+                ],
+                "answerIndex": 1
+            }
+        ],
+        "level3_queue": [
+            {
+                "question": "Queue: enqueue(4), enqueue(7), dequeue(). What is at the front?",
+                "options": [
+                    "4",
+                    "7",
+                    "Empty",
+                    "11"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "question": "Queue receives A, then B, then C. One dequeue is performed. What leaves?",
+                "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "None"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "question": "Queue is empty. What should dequeue report?",
+                "options": [
+                    "Overflow",
+                    "Underflow",
+                    "Success with 0",
+                    "Sort error"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "question": "Queue: enqueue(2), enqueue(5), dequeue(), enqueue(9). What is at the front?",
+                "options": [
+                    "2",
+                    "5",
+                    "9",
+                    "Empty"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "question": "Circular queue size is 6 and rear is 5. What is (rear+1)%6?",
+                "options": [
+                    "5",
+                    "6",
+                    "0",
+                    "1"
+                ],
+                "answerIndex": 2
+            }
+        ],
+        "level4_linked_list": [
+            {
+                "question": "A list is 10 -> 20 -> 30 -> NULL. What is head.data?",
+                "options": [
+                    "10",
+                    "20",
+                    "30",
+                    "NULL"
+                ],
+                "answerIndex": 0
+            },
+            {
+                "question": "A list is 5 -> 8 -> NULL. After moving temp = temp.next once, what is temp.data?",
+                "options": [
+                    "5",
+                    "8",
+                    "NULL",
+                    "undefined"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "question": "If head is NULL, how many nodes are in the list?",
+                "options": [
+                    "One",
+                    "Two",
+                    "Zero",
+                    "Unknown but never zero"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "question": "In 1 -> 2 -> 3 -> NULL, what should node 2's next point to?",
+                "options": [
+                    "Node 1",
+                    "Node 2",
+                    "Node 3",
+                    "NULL"
+                ],
+                "answerIndex": 2
+            },
+            {
+                "question": "After inserting 4 at the beginning of 7 -> 9 -> NULL, what is the list?",
+                "options": [
+                    "7 -> 9 -> 4",
+                    "4 -> 7 -> 9",
+                    "7 -> 4 -> 9",
+                    "4 -> 9 -> 7"
+                ],
+                "answerIndex": 1
+            }
+        ],
+        "level5_mixed": [
+            {
+                "question": "Which structure is used here? Add tasks at the rear and process from the front.",
+                "options": [
+                    "Stack",
+                    "Queue",
+                    "Tree",
+                    "Graph"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "question": "Which structure is used here? The most recently visited page is removed first when going back.",
+                "options": [
+                    "Queue",
+                    "Stack",
+                    "Priority queue",
+                    "Array only"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "question": "A program visits all neighbors level by level. Which structure is typically used?",
+                "options": [
+                    "Stack",
+                    "Queue",
+                    "Heap",
+                    "Hash map"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "question": "A program explores one path deeply before backtracking. Which structure is typically used?",
+                "options": [
+                    "Queue",
+                    "Stack",
+                    "Priority queue",
+                    "Deque only"
+                ],
+                "answerIndex": 1
+            },
+            {
+                "question": "A collection needs frequent insertions at the head. Which is a suitable choice?",
+                "options": [
+                    "Singly linked list",
+                    "Fixed array",
+                    "String",
+                    "Matrix"
+                ],
+                "answerIndex": 0
+            }
+        ]
+    }
+}
