@@ -4,85 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Rush - Game Lobby</title>
+    <title>Race | Code Rush</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
+<body class="game-page">
 
-<body class="game-lobby">
+    <nav class="navbar">
+        <div class="logo">CODE <span>RUSH</span></div>
+        <a href="challenge-selection.html" class="nav-home">EXIT GAME</a>
+    </nav>
 
-    <div class="lobby-circle circle-one"></div>
-    <div class="lobby-circle circle-two"></div>
-    <div class="lobby-circle circle-three"></div>
-    <div class="lobby-circle circle-four"></div>
+    <section class="game-section">
 
-    <button class="lobby-back" id="backBtn">&#8592; BACK</button>
-
-    <main class="lobby-container">
-
-        <header class="lobby-logo">
-            <h1><span>CODE</span> RUSH</h1>
-            <p>RACE YOUR LOGIC</p>
-        </header>
-
-        <section class="lobby-player-box">
-            <h2>CHOOSE NUMBER OF PLAYERS</h2>
-
-            <div class="lobby-player-options">
-
-                <button class="lobby-player selected" data-players="2">
-                    <span class="lobby-person">♟</span>
-                    <span>2</span>
-                </button>
-
-                <button class="lobby-player" data-players="3">
-                    <span class="lobby-person">♟</span>
-                    <span>3</span>
-                </button>
-
-                <button class="lobby-player" data-players="4">
-                    <span class="lobby-person">♟</span>
-                    <span>4</span>
-                </button>
-
-            </div>
-        </section>
-
-        <section class="lobby-room-options">
-
-            <div class="lobby-room-card create-room">
-                <div class="lobby-room-icon">＋</div>
-
-                <div class="lobby-room-info">
-                    <h2>CREATE ROOM</h2>
-                    <p>Start a new room and invite<br>your friends to play.</p>
-                </div>
-
-                <button class="lobby-room-btn create-room-btn" id="createBtn">
-                    CREATE ROOM <span>→</span>
-                </button>
+        <div class="game-header">
+            <div class="game-stat">
+                <span>LEVEL</span>
+                <h2 id="game-level">01 / 05</h2>
             </div>
 
-            <div class="lobby-room-card join-room">
-                <div class="lobby-room-icon join-icon">∞</div>
-
-                <div class="lobby-room-info">
-                    <h2>JOIN ROOM</h2>
-                    <p>Enter a room code and<br>join the game.</p>
-                </div>
-
-                <button class="lobby-room-btn join-room-btn" id="joinBtn">
-                    JOIN ROOM <span>→</span>
-                </button>
+            <div class="game-stat">
+                <span>SCORE</span>
+                <h2 id="game-score">000</h2>
             </div>
 
-        </section>
+            <div class="game-stat">
+                <span>TIME</span>
+                <h2 id="game-timer">00:30</h2>
+            </div>
 
-        <p class="lobby-footer">
-            THINK FAST <span>/</span> CODE SMART <span>/</span> RACE TO WIN
-        </p>
+            <div class="game-stat">
+                <span>QUESTION</span>
+                <h2 id="question-count">01 / 05</h2>
+            </div>
+        </div>
 
-    </main>
+       
+<div class="race-container">
 
-    <script src="js/script.js"></script>
+    <div class="race-heading">
+        <h2>RACE <span>TRACK</span></h2>
+        <p id="current-track-name">SELECTED TRACK</p>
+    </div>
+
+    <div class="race-track" id="race-track">
+
+        <div class="race-finish">FINISH</div>
+
+        <div class="race-road-line"></div>
+
+        <img src="" id="game-car" class="game-car" alt="Selected Car">
+
+    </div>
+
+    <div class="race-progress">
+        <div class="progress-info">
+            <span>RACE PROGRESS</span>
+            <span id="progress-text">0%</span>
+        </div>
+
+        <div class="progress-bar">
+            <div id="race-progress-fill"></div>
+        </div>
+    </div>
+
+</div>
+
+
+        <div class="question-container">
+
+            <div class="question-header">
+                <span id="question-category">ARRAY CHALLENGE</span>
+                <span id="question-points">+10 POINTS</span>
+            </div>
+
+            <h2 id="question-text">Your question will appear here.</h2>
+
+            <div id="answer-options" class="answer-options">
+                <button class="answer-option" data-answer="0">Option A</button>
+                <button class="answer-option" data-answer="1">Option B</button>
+                <button class="answer-option" data-answer="2">Option C</button>
+                <button class="answer-option" data-answer="3">Option D</button>
+            </div>
+
+            <div id="hint-container" class="hint-container">
+                <p id="hint-text"></p>
+            </div>
+
+            <div class="question-actions">
+                <button id="hint-btn">💡 GET HINT</button>
+                <button id="next-question-btn" disabled>NEXT QUESTION →</button>
+            </div>
+
+            <p id="answer-feedback"></p>
+
+        </div>
+
+    </section>
+
 </body>
 </html>

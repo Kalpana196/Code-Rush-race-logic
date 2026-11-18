@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Selection | Code Rush</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body class="challenge-selection-page">
+
+    <nav class="navbar">
+        <div class="logo">CODE <span>RUSH</span></div>
+        <a href="track-selection.html" class="nav-home">BACK</a>
+    </nav>
+
+    <section class="challenge-section">
+
+        <div class="selection-heading">
+            <p class="section-tag">STEP 04 - CHOOSE YOUR CHALLENGE</p>
+            <h1>SELECT YOUR <span>MODE</span></h1>
+            <p>Choose how you want to test your data structures knowledge.</p>
+        </div>
+
+        <div class="challenge-grid">
+
+            <div class="challenge-card">
+                <div class="challenge-icon">❓</div>
+                <span class="challenge-number">MODE 01</span>
+                <h2>MCQ CHALLENGE</h2>
+                <p>Test your knowledge with multiple-choice questions based on data structures.</p>
+                <div class="challenge-details">
+                    <span>● Multiple Choice</span>
+                    <span>● Quick Thinking</span>
+                </div>
+                <button class="select-challenge-btn" data-mode="MCQ">SELECT MODE</button>
+            </div>
+
+            <div class="challenge-card">
+                <div class="challenge-icon">⚙️</div>
+                <span class="challenge-number">MODE 02</span>
+                <h2>DSA OPERATIONS</h2>
+                <p>Solve data structure problems using operations like Push, Pop, Insert and Delete.</p>
+                <div class="challenge-details">
+                    <span>● DSA Operations</span>
+                    <span>● Logical Thinking</span>
+                </div>
+                <button class="select-challenge-btn" data-mode="DSA Operations">SELECT MODE</button>
+            </div>
+
+            <div class="challenge-card">
+                <div class="challenge-icon">🐞</div>
+                <span class="challenge-number">MODE 03</span>
+                <h2>FIND THE ERROR</h2>
+                <p>Analyze code snippets and identify the logical or programming errors.</p>
+                <div class="challenge-details">
+                    <span>● Code Analysis</span>
+                    <span>● Debugging Skills</span>
+                </div>
+                <button class="select-challenge-btn" data-mode="Find the Error">SELECT MODE</button>
+            </div>
+
+        </div>
+
+        <div class="challenge-footer">
+            <p id="selected-challenge-text">No challenge selected</p>
+            <button id="start-challenge-btn" disabled>START RACE →</button>
+        </div>
+
+    </section>
+
+</body>
+</html>
+    

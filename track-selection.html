@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Track | Code Rush</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body class="track-selection-page">
+
+    <nav class="navbar">
+        <div class="logo">CODE <span>RUSH</span></div>
+        <a href="car-customization.html" class="nav-home">BACK</a>
+    </nav>
+
+    <section class="track-section">
+
+        <div class="selection-heading">
+            <p class="section-tag">STEP 03 - CHOOSE YOUR DESTINATION</p>
+            <h1>SELECT YOUR <span>TRACK</span></h1>
+            <p>Choose your racing environment and prepare for the challenge.</p>
+        </div>
+
+        <div class="track-grid">
+
+            <div class="track-card">
+                <div class="track-image neon-city">
+                    <span class="track-icon">🌃</span>
+                    <span class="track-number">01</span>
+                </div>
+                <div class="track-info">
+                    <h2>NEON CITY</h2>
+                    <p>Race through a futuristic city filled with neon lights.</p>
+                    <span class="track-type">URBAN TRACK</span>
+                    <button class="select-track-btn" data-track="Neon City">SELECT TRACK</button>
+                </div>
+            </div>
+
+            <div class="track-card">
+                <div class="track-image forest">
+                    <span class="track-icon">🌲</span>
+                    <span class="track-number">02</span>
+                </div>
+                <div class="track-info">
+                    <h2>FOREST</h2>
+                    <p>Drive through mysterious green forests and winding roads.</p>
+                    <span class="track-type">NATURE TRACK</span>
+                    <button class="select-track-btn" data-track="Forest">SELECT TRACK</button>
+                </div>
+            </div>
+
+            <div class="track-card">
+                <div class="track-image desert">
+                    <span class="track-icon">🏜️</span>
+                    <span class="track-number">03</span>
+                </div>
+                <div class="track-info">
+                    <h2>DESERT</h2>
+                    <p>Experience high-speed racing across the hot desert.</p>
+                    <span class="track-type">OFFROAD TRACK</span>
+                    <button class="select-track-btn" data-track="Desert">SELECT TRACK</button>
+                </div>
+            </div>
+
+            <div class="track-card">
+                <div class="track-image snow-mountain">
+                    <span class="track-icon">❄️</span>
+                    <span class="track-number">04</span>
+                </div>
+                <div class="track-info">
+                    <h2>SNOW MOUNTAIN</h2>
+                    <p>Race through icy roads surrounded by snowy mountains.</p>
+                    <span class="track-type">SNOW TRACK</span>
+                    <button class="select-track-btn" data-track="Snow Mountain">SELECT TRACK</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="track-footer">
+            <p id="selected-track-text">No track selected</p>
+            <button id="continue-track-btn" disabled>CONTINUE →</button>
+        </div>
+
+    </section>
+
+</body>
+</html>

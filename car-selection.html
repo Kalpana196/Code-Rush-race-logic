@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Car | Code Rush</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body class="car-selection-page">
+
+    <nav class="navbar">
+        <div class="logo">CODE <span>RUSH</span></div>
+        <a href="index.html" class="nav-home">HOME</a>
+    </nav>
+
+    <section class="car-selection-section">
+        <div class="selection-heading">
+            <p class="section-tag">STEP 01 - YOUR RIDE</p>
+            <h1>CHOOSE YOUR <span>CAR</span></h1>
+            <p>Select your racing machine and get ready for the challenge.</p>
+        </div>
+
+        <div class="car-grid">
+
+            <div class="car-card">
+                <div class="car-number">01</div>
+                <img src="assets/cars/car1.png" alt="Blue Racing Car">
+                <h2>NEON X</h2>
+                <p>Speed Class</p>
+                <button class="select-car-btn" data-car="NEON X">SELECT CAR</button>
+            </div>
+
+            <div class="car-card">
+                <div class="car-number">02</div>
+                <img src="assets/cars/car2.png" alt="Red Racing Car">
+                <h2>FIRE STORM</h2>
+                <p>Power Class</p>
+                <button class="select-car-btn" data-car="FIRE STORM">SELECT CAR</button>
+            </div>
+
+            <div class="car-card">
+                <div class="car-number">03</div>
+                <img src="assets/cars/car3.png" alt="Purple Racing Car">
+                <h2>SHADOW GT</h2>
+                <p>Drift Class</p>
+                <button class="select-car-btn" data-car="SHADOW GT">SELECT CAR</button>
+            </div>
+
+            <div class="car-card">
+                <div class="car-number">04</div>
+                <img src="assets/cars/car4.png" alt="Green Racing Car">
+                <h2>TOXIC R</h2>
+                <p>Turbo Class</p>
+                <button class="select-car-btn" data-car="TOXIC R">SELECT CAR</button>
+            </div>
+
+        </div>
+
+        <div class="selection-footer">
+            <p id="selected-car-text">No car selected</p>
+            <button id="continue-car-btn" disabled>CONTINUE →</button>
+        </div>
+    </section>
+
+</body>
+</html>

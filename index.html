@@ -4,52 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Rush: Race Your Logic</title>
+    <title>Code Rush - Race Your Logic</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
 
-    <main class="landing">
-        <div class="circle circle1"></div>
-        <div class="circle circle2"></div>
+    <header class="navbar">
+        <div class="logo">
+            <span>CODE</span> RUSH
+        </div>
 
-        <section class="content">
-            <p class="label">THE ULTIMATE CODING RACE</p>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">How To Play</a>
+        </nav>
 
-            <h1>CODE<br><span>RUSH</span></h1>
+        <a href="car-selection.html" class="nav-btn">PLAY NOW</a>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <p class="tagline">THINK FAST. CODE SMART. RACE HARD.</p>
+
+            <h1>
+                CODE <span>RUSH</span>
+            </h1>
 
             <h2>RACE YOUR LOGIC</h2>
 
             <p class="description">
-                Think fast. Code smart. Race to win.
+                Challenge your programming skills, solve DSA problems
+                and race your way to victory.
             </p>
 
-            <button id="startBtn">
-                START GAME <span>→</span>
-            </button>
+            <a href="car-selection.html" class="start-btn">
+                START RACE <span>➜</span>
+            </a>
 
-            <p class="tagline">YOUR LOGIC. YOUR SPEED. YOUR VICTORY.</p>
-        </section>
+            <div class="hero-stats">
+                <div>
+                    <h3>05</h3>
+                    <p>DSA LEVELS</p>
+                </div>
+                <div>
+                    <h3>03</h3>
+                    <p>CHALLENGE MODES</p>
+                </div>
+                <div>
+                    <h3>∞</h3>
+                    <p>FUN & LEARNING</p>
+                </div>
+            </div>
+        </div>
 
-        <section class="visual">
-            <div class="glow glow1"></div>
-            <div class="glow glow2"></div>
-
-            <div class="code-icon">&lt;/&gt;</div>
-
-            <div class="symbol symbol1">✦</div>
-            <div class="symbol symbol2">＋</div>
-            <div class="symbol symbol3">◇</div>
-
+        <div class="hero-visual">
+            <div class="glow-circle"></div>
+            <div class="speed-lines"></div>
+            <div class="car">
+                <img src="image/car.png" alt="Racing Car">
+            </div>
             <div class="road">
                 <div class="road-line"></div>
-                <div class="car car1">🏎️</div>
-                <div class="car car2">🏎️</div>
-                <div class="finish">FINISH</div>
             </div>
-        </section>
+        </div>
     </main>
 
-    <script src="js/script.js"></script>
+    <footer>
+        <p>© 2026 CODE RUSH | RACE YOUR LOGIC</p>
+        <p>BUILT FOR LOGIC LOVERS</p>
+    </footer>
+
 </body>
 </html>
